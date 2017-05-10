@@ -1,7 +1,10 @@
 # [Project Name Goes Here]
+(description)
 
-## Setup
-- `$ git clone git@github.com:rveitch/node-project-template.git`
+## Local Setup
+- `$ git clone https://github.com/rveitch/docraptor-logs.git`
 - `$ npm install`
-- `$ npm start`
+- Copy `template.env.txt` and rename it to `.env`
+- Add your local environment variable keys to the `.env` file and save it.
+- Run `$ npm start` or `$ node app` to initialize the app.
 - Visit http://localhost:3000 in your browser.
